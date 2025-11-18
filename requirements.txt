@@ -1,0 +1,28 @@
+# Professional Enterprise CCTV Monitoring System - Dependencies
+# Core web framework and UI
+gradio>=4.0.0
+
+# Data processing and analysis  
+pandas>=1.5.0,<2.0.0
+numpy>=1.24.0,<2.0.0  # Compatibility ensured
+
+# Database Engine - SQLite (built-in with Python)
+# sqlite3 - No installation needed, comes with Python
+
+# Visualization and plotting
+plotly>=5.17.0
+
+# Date and time handling (built-in with Python)
+# datetime, threading, time - No installation needed
+
+# Local AI Engine Dependencies
+opencv-python>=4.8.0      # Computer vision processing (REQUIRED)
+numpy>=1.24.0            # Numerical processing
+
+# Optional: YOLOv8 Enhanced Performance (recommended)
+# ultralytics>=8.0.0      # For best YOLOv8 performance with yolov8n.pt
+# torch>=2.0.0            # PyTorch backend for ultralytics
+
+# Optional: Advanced features (install if needed)
+# Pillow>=10.0.0           # For image processing  
+# requests>=2.31.0         # For external API calls
