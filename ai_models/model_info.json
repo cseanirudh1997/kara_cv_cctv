@@ -1,0 +1,22 @@
+{
+  "RTDETR.pt": {
+    "type": "RT-DETR Detection Model",
+    "training_date": "2025-11-18T15:53:16.597825",
+    "mAP_0.5": 92.0,
+    "classes": [
+      "person",
+      "chef",
+      "vehicle",
+      "equipment"
+    ],
+    "training_images": 4000,
+    "epochs": 50
+  },
+  "deepsort/ckpt.t7": {
+    "type": "DeepSORT Tracking Model",
+    "training_date": "2025-11-18T15:53:16.597825",
+    "MOTA": 88.0,
+    "tracking_accuracy": 94.0,
+    "training_sequences": 150
+  }
+}
